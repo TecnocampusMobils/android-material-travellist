@@ -29,7 +29,7 @@ The view items for the RecyclerView are going to be **CardView**s. See the layou
 ```
 See that to the LinearLayout called mainHolder, we’ve added **android:background=?android:selectableItemBackground** that sets the ripple effect when the cards are touched. See next figure for an example of the effect.
 
-![image alt text](image_0.png)
+![Ripple effect](https://cloud.githubusercontent.com/assets/1186025/11369025/3170af0e-92bd-11e5-92ec-2c32976a43e5.png)
 
 ### The Adapter for the RecyclerView
 
