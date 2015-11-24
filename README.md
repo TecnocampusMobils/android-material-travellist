@@ -165,7 +165,7 @@ mAnimatable.start();
 ```
 ### Activity Transitions
 
-It may be useful to make an animation to transition between activities or frames. This animations can reveal users information about the app usability. There are three predefined transitions: Explode, Slide and Fade. These transition can be set as exit or enter. In our example we use the Fade transition when entering to the detail transition. When going from MainActivity to DetailActivity the Fade animation will be applied as entering transition to all the visible Views of the DetailActivity. When the back button is pressed and the app goes from the DetaiActivit to MainActivity the Fade transition animation is played reversely.  
+It may be useful to make an animation to transition between activities or fragments. This animations can reveal users information about the app usability. There are three predefined transitions: Explode, Slide and Fade. These transition can be set as exit or enter. In our example we use the Fade transition when entering to the detail transition. When going from MainActivity to DetailActivity the Fade animation will be applied as entering transition to all the visible Views of the DetailActivity. When the back button is pressed and the app goes from the DetaiActivit to MainActivity the Fade transition animation is played reversely.  
 
 This is the code:
 ```java
@@ -176,7 +176,7 @@ getWindow().setEnterTransition(fade);
 ```
 ### Activity Transitions with shared elements
 
-Activity and frame transitions with shared elements are useful to give context and show continuity between UI elements across different views.
+Activity and fragment transitions with shared elements are useful to give context and show continuity between UI elements across different views.
 
 Between the List View and the detail view we are going to transition the following elements:
 
